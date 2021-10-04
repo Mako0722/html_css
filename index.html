@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ねこプロ</title>
+</head>
+<body>
+  <header>
+    <h1>ねこプロ</h1>
+    <p>日本初のねこのように学ぶプログラミング学習コミュニティ</p>
+  </header>
+    <main>
+      <article>
+          <h2>ねこプロ入会申し込み</h2>
+          <img src="images/image01.jpeg" alt="コンテンツ内容">
+          <div>
+            <table border="1">
+              <tr>
+                <th>プラン名</th>
+                <th>料金</th>
+                <th>割引</th>
+              </tr>
+              <tr>
+                <td>のんびりプラン</td>
+                <td>９８０円</td>
+                <td rowspan="2">学生は半額</td>
+              </tr>
+              <tr>
+                <td>わくわくプラン</td>
+                <td>2000円</td>
+              </tr>
+            </table>
+            プラン選択　：
+              <select name="bloodtype">
+                <option value="のんびりプラン">のんびりプラン</option>
+                <option value="わくわくプラン">わくわくプラン</option>
+              </select>
+          </div>
+          <div>
+            名前　　　　：
+            <input type="text" id="name" placeholder="名字  名前">
+            <input type="radio" name="gender" value="男">男
+            <input type="radio" name="gender" value="女" checked> 女
+          </div>
+          <div>
+          血液型　　　：
+            <select name="bloodtype">
+              <option value="ねこ型">ねこ型</option>
+              <option value="A型">A型</option>
+              <option value="B型">B型</option>
+              <option value="O型">O型</option>
+              <option value="AB型">AB型</option>
+            </select>
+          </div>
+          <div>
+            得意な言語 　:
+            <input type="checkbox" name="color" value="Java">Java
+            <input type="checkbox" name="color" value="JavaScript">JavaScript
+            <input type="checkbox" name="color" value="Python">Python
+            <input type="checkbox" name="color" value="C">C
+            <input type="checkbox" name="color" value="Ruby">Ruby
+            <input type="checkbox" name="color" value="PHP">PHP
+            <input type="checkbox" name="color" value="Go">Go
+          </div>
+          <div>
+            <p>コメント</p>
+          </div>
+          <div>
+          <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+          </div>
+          <input type="submit" value="申し込み"><br>
+          <a href="index2.html">ガイドライン</a>
+        </article>
+    </main>
+</body>
+<footer>
+  <p>Copyright 2021 nekopuro</p>
+</footer>
+</html>
